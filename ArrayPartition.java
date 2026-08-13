@@ -96,6 +96,9 @@ class ArrayPartition
 
 			
 	} 
+	static void finalMethod(){
+		System.out.print("final"); 
+	}
 	
 
 	public static void main(String args[]) 
@@ -103,7 +106,10 @@ class ArrayPartition
 		int []arr = new int[]{ 5, 5, 1, 11 }; 
 		int n = arr.length; 
 		printEqualSumSets(arr, n); 
+		finalMethod();
 	} 
 } 
+
+
 
 
